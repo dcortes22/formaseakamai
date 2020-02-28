@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Gracias <%=  @member.name %> hemos recibido la información, a continuación un detalle</h2>
+      <p><strong>Nombre:</strong> <%= @member.name %></p>
+      <p><strong>Primer Apellido:</strong> <%= @member.first_last_name %></p>
+      <p><strong>Segundo Apellido:</strong> <%= @member.second_last_name %></p>
+      <p><strong>Código de Empleado:</strong> <%= @member.employee_code %></p>
+      <p><strong>Foto:</strong></p>
+      <%= image_tag @member.photo.url(:thumb), id: "preview" %>
+      <br />
+      <%= link_to 'Editar', edit_member_path(@member) %> |
+      <%= link_to 'Volver', members_path %>
+    </div>
+  </div>
+</div>
+
