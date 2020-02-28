@@ -32,7 +32,7 @@ gem 'mini_magick', '~> 4.8'
 gem 'carrierwave'
 gem 'rails-assets-jcrop', source: 'https://rails-assets.org'
 
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '~> 4.3.1'
 
 gem 'jquery-rails'
 
