@@ -37,6 +37,8 @@ gem 'jquery-rails'
 
 gem 'simple_form'
 
+gem "fog-aws"
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
